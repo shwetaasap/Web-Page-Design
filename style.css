@@ -107,7 +107,7 @@ section p img{
     display: inline-block;
    /* position: relative;*/
     border:5px solid transparent;
-    border-image-source:url("http://gifimage.net/wp-content/uploads/2017/11/gif-borders-12.gif");
+    border-image-source:url(6.gif);
     border-image-slice: 20;
     border-image-width: 10px;
     padding:10px;
