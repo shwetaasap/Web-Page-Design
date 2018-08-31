@@ -1,0 +1,150 @@
+body{
+    margin: 0px;
+    top: 0px;
+}
+#hero{
+    background-image:url("image2.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: -10;
+    height:250px;
+    position: sticky;
+    top: 0px;
+}
+#overlay{
+    position: absolute;
+    top: 0;
+    bottom:0;
+    opacity: .8;
+    background-image: url("1.png");
+    z-index: -10;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.FF img{
+    margin-left: 20px;
+    margin-top: 50px;    
+}
+
+.navigation{
+    position: fixed;
+    height: 45px;
+    width: 100%;
+    background-color:black;
+}
+.parts{
+    list-style-type: none;
+    cursor: pointer;
+    float:right;
+}
+li a{
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+}
+li{
+ display: inline;
+ position: relative;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    margin: 0px;
+}
+h4{
+    text-align: center;
+    margin: 0px;
+}
+section{
+    margin: 0px;
+}
+section h1{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+}
+.first{
+    background-color: rgb(167, 18, 87);
+    padding-top: 20px;
+}
+.box{
+    height: 250px;
+    padding: 5px;
+    margin: 15px;
+    text-align: center;
+}
+.bingo img, .bing img, .bingoo img{
+    border-radius: 50%;
+}
+section p{
+   /* position: relative;(it will go above nav bar)*/
+    text-align: center;
+
+}
+section p img{
+    /*position: relative;*/
+    right: 5px;
+    top: 4px;
+}
+.prev, .next {
+    cursor: pointer;
+    position: relative;
+    width: auto;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    margin-top: 50px;
+    top: -50px; 
+}
+.SS{
+    background-color: transparent;
+}
+.boxfour img{
+    display: inline-block;
+   /* position: relative;*/
+    border:5px solid transparent;
+    border-image-source:url("http://gifimage.net/wp-content/uploads/2017/11/gif-borders-12.gif");
+    border-image-slice: 20;
+    border-image-width: 10px;
+    padding:10px;
+    border-image-outset: -20px;  
+}
+.boxfour img:hover{
+    transform: rotateX(45deg);
+}
+.last{
+    background-color: rgb(167, 18, 87);
+}
+footer h1{
+    text-align: center;
+    text-decoration: underline;
+    margin: 0px;
+}
+.boxx{
+    height: 300px;
+    padding: 5px;
+    margin: 15px;
+}
+.BB{
+    background-color: black;
+    background-size: cover;
+    color: aliceblue;
+    height: 200px;
+    text-align: center;
+}
+.BB article p{
+    display:inline-block;
+    font-size: 20px;
+    padding: 10px; 
+}
+.BB article img{
+    display:inline-block;
+    padding: 10px;
+    border: 0px;
+    border-radius: 50%;
+}
+
