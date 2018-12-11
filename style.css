@@ -135,12 +135,12 @@ footer h1{
     text-align: center;
 }
 .BB article p{
-    display:inline-block;
+    display:inline;
     font-size: 20px;
     padding: 10px; 
 }
 .BB article img{
-    display:inline-block;
+    display:inline;
     padding: 10px;
     border: 0px;
     border-radius: 50%;
